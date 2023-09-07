@@ -1,0 +1,30 @@
+[git_branch]
+symbol = "🌱 "
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
+
+[scala]
+disabled = true
+
+[java]
+disabled = true
+
+[package]
+disabled = true
+
+[git_status]
+disabled = true
+
+[kubernetes]
+symbol = "☸️  "
+style = "bold green"
+disabled = false
+format = '[$symbol$context( \($namespace\))]($style) in '
+
+[docker_context]
+disabled = true
+`
