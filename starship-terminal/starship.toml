@@ -27,4 +27,3 @@ format = '[$symbol$context( \($namespace\))]($style) in '
 
 [docker_context]
 disabled = true
-`

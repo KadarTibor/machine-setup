@@ -7,7 +7,7 @@ Mac Setup:
 - setting for fast window switching
 - .skhd file 
 - copy from folder skhd the .skhd file into ~/.config/.skhd  
-```cp ./skhd-profile/skhdrc ~/.config/skhd```
+```cp ./skhd-profile/skhdrc ~/.skhdrc```
 ```skhd --start-service```
 
 # Zshrc file
