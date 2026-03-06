@@ -41,4 +41,5 @@ cask "vlc"
 cask "stats"
 cask "spectacle"
 cask "appcleaner"
-
+cask "rectangle"
+brew "koekeishiya/formulae/yabai"
