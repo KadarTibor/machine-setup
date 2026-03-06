@@ -1,14 +1,22 @@
 Mac Setup:
 
-# Shortcuts and window management (tbd)
+# Setup ssh key
+- follow the official github guide [Generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), [Add ssh key to github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+# Shortcuts and window management
 - setting for fast window switching
 - .skhd file 
 - copy from folder skhd the .skhd file into ~/.config/.skhd  
 ```cp ./skhd-profile/skhdrc ~/.config/skhd```
+```skhd --start-service```
 
-# Setup zsh (tbd)
-- .zshrc
-- theme
+# Zshrc file
+
+
+# Setup terminal
+- ```cp ./starship-terminal/starship.toml ~/.config/starship.toml```
+- add ```eval "$(starship init zsh)"``` to the .zshrc file
+
 
 # Brew dump file 
 - install brew (https://brew.sh/) 
